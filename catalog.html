@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset=utf-8>
+    <title>Студия "Nerds"</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,500,100&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="normalize.css" rel="stylesheet">
+  </head>
+  <body class="catalog">   
+    <header>
+      <div class="container clearfix">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.png" width="140" height="58" alt="Nerds"></a>
+        </div>
+        <nav>
+          <ul class="navigator">
+            <li>
+              <a href="index.html">СТУДИЯ</a>
+            </li>
+            <li>
+              <a href="#">КЛИЕНТЫ</a>
+            </li>
+            <li class="active">
+              <a href="#">МАГАЗИН</a>
+            </li>
+            <li>
+              <a href="#">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="#" class="basket">КОРЗИНА</a> 
+        </div>
+      </div>
+      <h1>ДОБРО ПОЖАЛОВАТЬ В МАГАЗИН<br> ГОТОВЫХ МАКЕТОВ</h1>
+    </header>
+    <div class="container clearfix">   
+      <section class="catalog-controls">
+        <div class="range-filter">
+          <div class="catalog-controls-text">СТОИМОСТЬ:</div>
+          <div class="range-controls">
+            <div class="scale">
+              <div style="width:70%;" class="bar"></div>
+            </div>
+            <div class="toggle min-toggle"></div>
+            <div class="toggle max-toggle"></div>
+          </div>
+          <div class="price-controls">
+            ОТ <input class="min-price" type="text" name="min-price" value="0">
+            ДО <input class="max-price" type="text" name="max-price" value="15 000">
+          </div>
+        </div>
+        <div class="grid-radio">
+          <div class="catalog-controls-text">СЕТКА:</div>
+          <input type="radio" id="grid-btn-1" name="grid-toggle" checked>
+          <input type="radio" id="grid-btn-2" name="grid-toggle">
+          <input type="radio" id="grid-btn-3" name="grid-toggle">
+          <label for="grid-btn-1">Адаптивная</label>
+          <label for="grid-btn-2">Фиксированная</label>
+          <label for="grid-btn-3">Резиновая</label>
+        </div>
+        <div class="special-checkbox">
+          <div class="catalog-controls-text">ОСОБЕННОСТИ:</div>
+          <input type="checkbox" id="spec-btn-1" name="special-toggle" checked>
+          <input type="checkbox" id="spec-btn-2" name="special-toggle">
+          <input type="checkbox" id="spec-btn-3" name="special-toggle" checked>
+          <input type="checkbox" id="spec-btn-4" name="special-toggle">
+          <input type="checkbox" id="spec-btn-5" name="special-toggle">
+          <label for="spec-btn-1">Слайдер</label>
+          <label for="spec-btn-2">Блок преимуществ</label>
+          <label for="spec-btn-3">Новости</label>
+          <label for="spec-btn-4">Галерея</label>
+          <label for="spec-btn-5">Корзина</label>
+        </div>
+      </section>
+      <section class="main-catalog clearfix">
+        <div class="main-catalog-controls">
+          <div class="sorting-btns">
+            <p>СОРТИРОВАТЬ:</p>
+            <input type="radio" id="sort-1" name="sorting-toggle">
+            <input type="radio" id="sort-2" name="sorting-toggle">
+            <input type="radio" id="sort-3" name="sorting-toggle">
+            <label for="sort-1">ПО ЦЕНЕ</label>
+            <label for="sort-2">ПО ТИПУ</label>
+            <label for="sort-3">ПО ФУНКЦИОНАЛУ</label>
+          </div>
+          <div class="sorting-radio">
+            <input type="radio" id="sort-btn-1" name="sorting-toggle" checked>
+            <input type="radio" id="sort-btn-2" name="sorting-toggle">
+            <label for="sort-btn-1"></label>
+            <label for="sort-btn-2"></label>
+          </div>
+        </div>
+        <div class="catalog-stuff">
+          <div class="catalog-item">
+            <img src="img/item1.jpg" width="240" height="240" alt="#item">
+            <div class="catalog-item-info item-info-1">
+              <p>SUNSET</p>
+              <p>Интернет-магазин<br>с личным кабинетом</p>
+              <a href="#" class="btn">10 000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <img src="img/item2.jpg" width="240" height="240" alt="#item">
+            <div class="catalog-item-info item-info-1">
+              <p>SUNSET</p>
+              <p>Интернет-магазин<br>с личным кабинетом</p>
+              <a href="#" class="btn">10 000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <img src="img/item3.jpg" width="240" height="240" alt="#item">
+            <div class="catalog-item-info item-info-1">
+              <p>SUNSET</p>
+              <p>Интернет-магазин<br>с личным кабинетом</p>
+              <a href="#" class="btn">10 000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <img src="img/item4.jpg" width="240" height="240" alt="#item">
+            <div class="catalog-item-info item-info-1">
+              <p>SUNSET</p>
+              <p>Интернет-магазин<br>с личным кабинетом</p>
+              <a href="#" class="btn">10 000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <img src="img/item5.jpg" width="240" height="240" alt="#item">
+            <div class="catalog-item-info item-info-1">
+              <p>SUNSET</p>
+              <p>Интернет-магазин<br>с личным кабинетом</p>
+              <a href="#" class="btn">10 000 Р.</a>
+            </div>
+          </div>
+          <div class="catalog-item">
+            <img src="img/item6.jpg" width="240" height="240" alt="#item">
+            <div class="catalog-item-info item-info-1">
+              <p>SUNSET</p>
+              <p>Интернет-магазин<br>с личным кабинетом</p>
+              <a href="#" class="btn">10 000 Р.</a>
+            </div>
+          </div>
+        </div>
+        <div class="paginator">
+          <a href="#1" class="paginator-active">1</a>
+          <a href="#2" class="paginator-btn">2</a>
+          <a href="#3" class="paginator-btn">3</a>
+          <a class="paginator-next" href="#next">СЛЕДУЮЩАЯ</a>
+        </div>
+      </section>  
+    </div> 
+    <footer>
+      <div class="map">
+        <div class="map-inform container">
+          <div class="map-direction">
+            <div class="map-direction-title"><strong>NЁRSD</strong> DESIGN STUDIO</div>
+            <p>350000, Краснодар, <br>ул. головатого, 100</p>
+            <p>тел. +7 (861) 275-75-75</p>
+            <a href="#" class="btn btn-write-me">НАПИШИТЕ НАМ</a>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <div class="social-btn">
+          <a href="#" class="soc-btn vk-btn"></a>
+          <a href="#" class="soc-btn fb-btn"></a>
+          <a href="#" class="soc-btn inst-btn"></a>
+        </div>
+        <div class="footer-text">
+          <div class="social-title">Давайте дружить, это выгодно!</div>
+          <p>Скидки 10% для друзей из социальных сетей.</p>
+        </div>
+      </div>
+    </footer>
+
+		<div class="modal-content">
+      
+      <form class="post-form" action="/echo" method="post">
+
+        <div class="fost-block  clearfix">
+          <div class="post-name-block">
+            <label for="post-name">Ваше имя:</label><br>
+            <input type="text" class="post-name" id="post-name"; name="name" placeholder="Ваше имя" >
+          </div>
+          <div class="post-mail-block">
+            <label for="post-mail">Ваш e-mail:</label><br>
+            <input type="text" class="post-mail" id="post-mail"; name="mail" placeholder="Почта для ответа">
+          </div>
+        </div>
+
+        <label for="post-text">Текст письма:</label><br>
+        <textarea  class="post-text" name="post-text" id="post-text" rows="5"></textarea>
+
+        <button type="submit" class="btn  btn-submit">Отправить</button>
+        <a href="#" class="btn  btn-grey  modal-content-close">Отмена</a>
+      </form>
+    </div>
+		    
+    <script src="js.js"></script>
+  </body>
+</html>
